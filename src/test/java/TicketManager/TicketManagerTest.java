@@ -10,9 +10,9 @@ public class TicketManagerTest {
     public void testSortFewTickets() {
         AviaSouls manager = new AviaSouls();
         Ticket ticket1 = new Ticket("MSK", "SPB", 200, 10, 12);
-        Ticket ticket2 = new Ticket("MSK", "SPB", 100, 11, 13);
+        Ticket ticket2 = new Ticket("MSK", "SPB", 100, 11, 14);
         Ticket ticket3 = new Ticket("MSK", "UFA", 200, 10, 16);
-        Ticket ticket4 = new Ticket("MSK", "SPB", 400, 7, 17);
+        Ticket ticket4 = new Ticket("MSK", "SPB", 400, 7, 7);
         Ticket ticket5 = new Ticket("UFA", "SPB", 800, 4, 9);
         Ticket ticket6 = new Ticket("MSK", "SPB", 200, 6, 10);
         Ticket ticket7 = new Ticket("NEW", "LA", 300, 15, 18);
@@ -36,9 +36,9 @@ public class TicketManagerTest {
     public void testSortZeroTickets() {
         AviaSouls manager = new AviaSouls();
         Ticket ticket1 = new Ticket("MSK", "SPB", 200, 10, 12);
-        Ticket ticket2 = new Ticket("MSK", "SPB", 100, 11, 13);
+        Ticket ticket2 = new Ticket("MSK", "SPB", 100, 11, 14);
         Ticket ticket3 = new Ticket("MSK", "UFA", 200, 10, 16);
-        Ticket ticket4 = new Ticket("MSK", "SPB", 400, 7, 17);
+        Ticket ticket4 = new Ticket("MSK", "SPB", 400, 7, 7);
         Ticket ticket5 = new Ticket("UFA", "SPB", 800, 4, 9);
         Ticket ticket6 = new Ticket("MSK", "SPB", 200, 6, 10);
         Ticket ticket7 = new Ticket("NEW", "LA", 300, 15, 18);
@@ -62,9 +62,9 @@ public class TicketManagerTest {
     public void testSortOneTickets() {
         AviaSouls manager = new AviaSouls();
         Ticket ticket1 = new Ticket("MSK", "SPB", 200, 10, 12);
-        Ticket ticket2 = new Ticket("MSK", "SPB", 100, 11, 13);
+        Ticket ticket2 = new Ticket("MSK", "SPB", 100, 11, 14);
         Ticket ticket3 = new Ticket("MSK", "UFA", 200, 10, 16);
-        Ticket ticket4 = new Ticket("MSK", "SPB", 400, 7, 17);
+        Ticket ticket4 = new Ticket("MSK", "SPB", 400, 7, 7);
         Ticket ticket5 = new Ticket("UFA", "SPB", 800, 4, 9);
         Ticket ticket6 = new Ticket("MSK", "SPB", 200, 6, 10);
         Ticket ticket7 = new Ticket("NEW", "LA", 300, 15, 18);
@@ -115,7 +115,7 @@ public class TicketManagerTest {
     public void testSortZeroTicketsWithComparator() {
         AviaSouls manager = new AviaSouls();
         Ticket ticket1 = new Ticket("MSK", "SPB", 200, 10, 12);
-        Ticket ticket2 = new Ticket("MSK", "SPB", 100, 11, 13);
+        Ticket ticket2 = new Ticket("MSK", "SPB", 100, 11, 14);
         Ticket ticket3 = new Ticket("MSK", "UFA", 200, 10, 16);
         Ticket ticket4 = new Ticket("MSK", "SPB", 400, 7, 17);
         Ticket ticket5 = new Ticket("UFA", "SPB", 800, 4, 9);
@@ -143,7 +143,7 @@ public class TicketManagerTest {
     public void testSortOneTicketWithComparator() {
         AviaSouls manager = new AviaSouls();
         Ticket ticket1 = new Ticket("MSK", "SPB", 200, 10, 12);
-        Ticket ticket2 = new Ticket("MSK", "SPB", 100, 11, 13);
+        Ticket ticket2 = new Ticket("MSK", "SPB", 100, 11, 14);
         Ticket ticket3 = new Ticket("MSK", "UFA", 200, 10, 16);
         Ticket ticket4 = new Ticket("MSK", "SPB", 400, 7, 17);
         Ticket ticket5 = new Ticket("UFA", "SPB", 800, 4, 9);
